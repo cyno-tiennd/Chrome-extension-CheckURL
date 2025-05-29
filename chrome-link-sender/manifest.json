@@ -1,0 +1,39 @@
+{
+  "manifest_version": 3, 
+  "name": "URL Safety Checker",
+  "version": "1.0",
+  "description": "Kiểm tra độ an toàn của URL bằng nhiều dịch vụ.",
+  "permissions": [
+    "activeTab",
+    "webRequest",
+    "storage",
+    "scripting"
+  ],
+  "host_permissions": [
+    "https://www.virustotal.com/*",
+    "https://safebrowsing.googleapis.com/",
+    "http://localhost:8005/"
+  ],
+  "background": {
+    "service_worker": "src/background.js"
+  },
+  "action": { 
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "images/icon16.png",
+      "48": "images/icon48.png",
+      "128": "images/icon128.png"
+    }
+  },
+  "icons": {
+    "16": "images/icon16.png",
+    "48": "images/icon48.png",
+    "128": "images/icon128.png"
+  },
+  "web_accessible_resources": [
+    {
+      "resources": ["poisonURL.txt"],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}

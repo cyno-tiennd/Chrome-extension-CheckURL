@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>URL Safety Check</title>
+    <link rel="stylesheet" href="popup.css"> </head>
+<body>
+    <h1>URL Safety Check</h1>
+    <div>
+        <label for="urlInput">Enter URL:</label>
+        <input type="text" id="urlInput" placeholder="e.g., https://example.com">
+        <button id="checkButton">Check URL</button>
+    </div>
+    <div id="loading" style="display: none;">Loading...</div>
+    <div id="errorMessage" class="error-msg"></div>
+
+    <hr>
+    <h2>Scan Results:</h2>
+    <p>Local Check: <span id="local-status" class="unknown">Still haven't checked</span></p> <p>VirusTotal: <span id="vt-status" class="unknown">Still haven't checked</span></p>
+    <p>Google Safe Browse: <span id="gsb-status" class="unknown">Still haven't checked</span></p>
+
+    <script src="popup.js"></script>
+</body>
+</html>

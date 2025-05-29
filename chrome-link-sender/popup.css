@@ -1,0 +1,119 @@
+/* popup.css */
+
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #f8fafc;
+  margin: 0;
+  padding: 16px;
+  min-width: 250px;
+}
+
+h1 {
+  font-size: 1.2em;
+  color: #2563eb;
+  margin-bottom: 12px;
+  text-align: center; /* Căn giữa tiêu đề */
+}
+
+/* Kiểu dáng cho nhóm input và button */
+.input-group {
+    display: flex;
+    gap: 8px; /* Khoảng cách giữa input và button */
+    margin-bottom: 15px;
+}
+
+#urlInput {
+    flex-grow: 1; /* Cho input chiếm hết không gian còn lại */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 0.95em;
+    box-sizing: border-box; /* Đảm bảo padding không làm tăng kích thước tổng thể */
+}
+
+button {
+  background: #2563eb;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 18px; /* Tăng padding để button lớn hơn */
+  font-size: 0.95em;
+  cursor: pointer;
+  transition: background 0.2s ease; /* Thêm transition mượt mà hơn */
+}
+
+button:hover {
+  background: #1d4ed8;
+}
+
+/* Loading indicator */
+#loading {
+    text-align: center;
+    margin-top: 10px;
+    color: #007bff;
+    font-style: italic;
+    font-size: 0.9em;
+    display: none; /* Mặc định ẩn, sẽ được hiển thị bằng JavaScript */
+}
+
+/* Phần hiển thị kết quả */
+#results {
+    margin-top: 20px;
+    border-top: 1px solid #eee;
+    padding-top: 15px;
+}
+
+.result-item {
+    display: flex;
+    justify-content: space-between; /* Đẩy nội dung ra hai bên */
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px 12px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08); /* Đổ bóng nhẹ */
+}
+
+.result-item strong {
+    color: #444;
+    font-size: 0.95em;
+}
+
+/* Các class trạng thái cho các phần tử <span> */
+.status-text { /* Class chung cho tất cả các span trạng thái */
+    font-weight: bold;
+    font-size: 0.9em;
+    padding: 3px 8px;
+    border-radius: 3px;
+}
+
+.unknown {
+    color: #7f8c8d; /* Màu xám cho trạng thái không xác định/chưa kiểm tra */
+    background-color: #ecf0f1;
+}
+
+.safe {
+    color: #16a34a; /* Màu xanh lá cây cho an toàn */
+    background-color: #d1f7d1;
+}
+
+.unsafe {
+    color: #dc2626; /* Màu đỏ cho không an toàn/độc hại */
+    background-color: #ffd1d1;
+}
+
+.pending {
+    color: #f59e0b; /* Màu cam cho trạng thái đang chờ/phân tích */
+    background-color: #fff4d1;
+}
+
+.error-msg {
+    color: #dc2626; /* Màu đỏ đậm cho thông báo lỗi */
+    font-size: 0.85em;
+    margin-top: 8px;
+    text-align: center;
+    background-color: #ffebe9;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #f0b4b4;
+}

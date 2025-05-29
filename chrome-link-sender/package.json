@@ -1,0 +1,19 @@
+{
+  "name": "chrome-link-sender",
+  "version": "1.0.0",
+  "description": "A Chrome extension that sends the current page URL to a server.",
+  "main": "src/background.js",
+  "scripts": {
+    "build": "echo 'No build step required'",
+    "test": "echo 'No tests specified'"
+  },
+  "keywords": [
+    "chrome",
+    "extension",
+    "url",
+    "sender"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {}
+}
