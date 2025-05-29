@@ -60,7 +60,7 @@ document.addEventListener('DOMContentLoaded', () => {
           errorMessage.textContent = ""; // Đảm bảo không có lỗi tổng quát
         } else {
           // Nếu không có trong list poison cục bộ, hiển thị kết quả backend
-          updateStatus(localStatus, "Not found in local list", "safe");
+          updateStatus(localStatus, "Not found in local malicious list", "safe");
           updateResultsFromBackend(response); // Hàm mới để cập nhật kết quả từ backend
         }
       } else {
@@ -118,7 +118,7 @@ document.addEventListener('DOMContentLoaded', () => {
           updateStatus(vtStatus, "No detailed stats from VirusTotal", "unknown");
         }
       } else if (attributes && (attributes.status === 'queued' || attributes.status === 'pending')) {
-        updateStatus(vtStatus, "Analysing...", "pending");
+        updateStatus(vtStatus, "Timeout, server is still analyzing", "pending");
       } else {
         updateStatus(vtStatus, "Unknown status from VirusTotal", "unknown");
       }

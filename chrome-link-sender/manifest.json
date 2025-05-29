@@ -10,8 +10,6 @@
     "scripting"
   ],
   "host_permissions": [
-    "https://www.virustotal.com/*",
-    "https://safebrowsing.googleapis.com/",
     "http://localhost:8005/"
   ],
   "background": {

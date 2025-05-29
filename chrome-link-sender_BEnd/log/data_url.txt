@@ -1,0 +1,80 @@
+URL: "https://gemini.google.com/app/7e340a351b028522"
+VirusTotal: Safe
+Google Safe Browse: Safe
+---
+URL: "https://docs.google.com/document/d/17N85fEAOmZdnhj7fvW8FbUy5zP5HypcQriDkyBbSvZE/edit?tab=t.0"
+VirusTotal: Unknown
+Google Safe Browse: Safe
+---
+URL: "https://docs.google.com/document/d/17N85fEAOmZdnhj7fvW8FbUy5zP5HypcQriDkyBbSvZE/edit?tab=t.0"
+VirusTotal: Unknown
+Google Safe Browse: Safe
+---
+URL: "https://docs.google.com/document/d/17N85fEAOmZdnhj7fvW8FbUy5zP5HypcQriDkyBbSvZE/edit?tab=t.0"
+VirusTotal: Safe
+Google Safe Browse: Safe
+---
+URL: "https://translate.google.com/?sl=en&tl=vi&text=unified&op=translate"
+VirusTotal: Unknown
+Google Safe Browse: Safe
+---
+URL: "https://docs.google.com/document/d/17N85fEAOmZdnhj7fvW8FbUy5zP5HypcQriDkyBbSvZE/edit?tab=t.0"
+VirusTotal: Safe
+Google Safe Browse: Safe
+---
+URL: "docs.google.com/document/d/17N85fEAOmZdnhj7fvW8FbUy5zP5HypcQriDkyBbSvZE/edit?tab=t.0"
+VirusTotal: Unknown
+Google Safe Browse: Safe
+---
+URL: "https://vnexpress.net/van-may-12-con-giap-con-giap-may-man-bon-con-giap-so-menh-giau-co-tien-vao-day-kho-khi-he-den-4888901.html"
+VirusTotal: Unknown
+Google Safe Browse: Safe
+---
+URL: "https://mail.google.com/chat/u/3/#chat/home"
+VirusTotal: Unknown
+Google Safe Browse: Safe
+---
+URL: "https://gemini.google.com/app/7e2fcc72e0f3ad07"
+VirusTotal: Unknown
+Google Safe Browse: Safe
+---
+URL: "https://gemini.google.com/app/7e2fcc72e0f3ad07"
+VirusTotal: Unknown
+Google Safe Browse: Safe
+---
+URL: "https://docs.google.com/document/d/17N85fEAOmZdnhj7fvW8FbUy5zP5HypcQriDkyBbSvZE/edit?tab=t.0"
+VirusTotal: Unknown
+Google Safe Browse: Safe
+---
+URL: "docs.google.com/document/d/17N85fEAOmZdnhj7fvW8FbUy5zP5HypcQriDkyBbSvZE/edit?tab=t.0"
+VirusTotal: Unknown
+Google Safe Browse: Safe
+---
+URL: "docs.google.com/document/d/17N85fEAOmZdnhj7fvW8FbUy5zP5HypcQriDkyBbSvZE/edit?tab=t.0"
+VirusTotal: Safe
+Google Safe Browse: Safe
+---
+URL: "https://docs.google.com/document/d/17N85fEAOmZdnhj7fvW8FbUy5zP5HypcQriDkyBbSvZE/edit?tab=t.0"
+VirusTotal: Safe
+Google Safe Browse: Safe
+---
+URL: "docs.google.com/document/d/17N85fEAOmZdnhj7fvW8FbUy5zP5HypcQriDkyBbSvZE/edit?tab=t.0"
+VirusTotal: Safe
+Google Safe Browse: Safe
+---
+URL: "https://www.facebook.com/"
+VirusTotal: Safe
+Google Safe Browse: Safe
+---
+URL: "https://www.facebook.com/"
+VirusTotal: Safe
+Google Safe Browse: Safe
+---
+URL: "https://gemini.google.com/app/5b69962326c0032a"
+VirusTotal: Unknown
+Google Safe Browse: Safe
+---
+URL: "https://translate.google.com/?sl=en&tl=vi&text=unified&op=translate"
+VirusTotal: Unknown
+Google Safe Browse: Safe
+---
